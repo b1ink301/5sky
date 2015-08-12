@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>5SKY</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>isEnabled</string>
+			<key>label</key>
+			<string>활성화</string>
+			<key>PostNotification</key>
+			<string>kr.b1ink.5skyprefs.settingsChanged</string>
+			<key>defaults</key>
+			<string>kr.b1ink.5skyprefs</string>
+		</dict>
+		<dict>
+			<key>footerText</key>
+			<string></string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>label</key>
+			<string>추가 설정</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>isLockEnabled</string>
+			<key>label</key>
+			<string>잠금화면에서 활성화</string>
+			<key>PostNotification</key>
+			<string>kr.b1ink.5skyprefs.settingsChanged</string>
+			<key>defaults</key>
+			<string>kr.b1ink.5skyprefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>isCloseAfterSend</string>
+			<key>label</key>
+			<string>전송 후 대화방 닫기</string>
+			<key>PostNotification</key>
+			<string>kr.b1ink.5skyprefs.settingsChanged</string>
+			<key>defaults</key>
+			<string>kr.b1ink.5skyprefs</string>
+		</dict>
+		<dict>
+			<key>footerText</key>
+			<string>© 2014 b1ink301@gmail.com</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>label</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>visitWebSite:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>개발자 홈페이지</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>makeDonation:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>개발자에게 기부하기</string>
+		</dict>
+		<dict>
+			<key>footerText</key>
+			<string>Thanks for a1anyip, codyd51, Qusic</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>label</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>
